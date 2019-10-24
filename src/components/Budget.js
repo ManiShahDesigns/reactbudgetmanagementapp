@@ -16,7 +16,7 @@ const Budget = ({ budget, handleBudgetSubmit, clearBudget }) => {
           />
         </div>
       </div>
-      {budget === "0" && (
+      {budget == "0" && (
         <button type="submit" className="btn btn-green">
           Add budget
           <MdAttachMoney className="btn-icon" />
